@@ -308,11 +308,11 @@ span {
   position: relative;
   align-self: stretch;
  
-  flex: 0 0 240px;
-  /* flex: 0 1 240px; */
+  /* flex: 0 0 240px; */
+  flex: 0 1 240px;
 }
 
-.main-left__wrapper,.main__sidebar-right {
+.main-left__wrapper,.main__sidebar-wrapper {
   position: relative;
 
   position: sticky;
@@ -322,7 +322,7 @@ span {
  
   overflow: auto;
 
-
+  padding: 0 10px 10px;
   margin-bottom: 20px;
 }
 

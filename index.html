@@ -209,9 +209,15 @@
             </div>
             <div class="hero__wrapper">
               <div class="hero__data">
-                <div class="hero__rating">
+                <div class="hero__rating" itemscope itemtype="http://schema.org/Game">
                   <p>Overall Rating:</p>
-                  <span>91 / 100</span>
+                  <meta itemprop="name" content="https://20bett.co/">
+                  <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                    <span itemprop="ratingValue">91</span>
+                  <span>/</span> 
+                  <span itemprop="bestRating">100</span>
+                  <meta itemprop="reviewCount" content="100">
+                  </span>
                 </div>
                 <h1 class="title general hero__title">
                   Lorem ipsum dolor  <strong> sit amet,</strong>
@@ -778,37 +784,37 @@
           </section>
           <section class="content faq">
             <h2 class="title high faq__title">Frequently Asked Questions</h2>
-            <ul>
-              <li class="faq__item" >
-                <h3 class="title medium faq__subtitle js-button-expander">A 20Bet é legalizada no Brasil?</h3>
-                <div  class="faq__question js-expand-content" >
-                  <p>
+            <ul  itemscope itemtype="https://schema.org/FAQPage">
+              <li class="faq__item"  itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="title medium faq__subtitle js-button-expander"  itemprop="name">A 20Bet é legalizada no Brasil?</h3>
+                <div  class="faq__question js-expand-content" itemscope  itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p  itemprop="text">
                     Sim, a casa de apostas tem licença emitida por Curaçao, que
                     é reconhecida no Brasil e a permite atuar por aqui.
                   </p>
                 </div>
               </li>
-              <li class="faq__item" >
-                <h3 class="title medium faq__subtitle js-button-expander">A 20Bet é legalizada no Brasil?</h3>
-                <div class="faq__question js-expand-content" >
-                  <p>
+              <li class="faq__item"  itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="title medium faq__subtitle js-button-expander"  itemprop="name">A 20Bet é legalizada no Brasil?</h3>
+                <div class="faq__question js-expand-content" itemscope  itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p  itemprop="text">
                     Sim, a casa de apostas tem licença emitida por Curaçao, que
                     é reconhecida no Brasil e a permite atuar por aqui.
                   </p>
                 </div>
               </li>
-              <li class="faq__item" >
-                <h3 class="title medium faq__subtitle js-button-expander">Existe aplicativo da 20Bet?</h3>
-                <div class="faq__question js-expand-content" >
-                  <p>
+              <li class="faq__item"  itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="title medium faq__subtitle js-button-expander"  itemprop="name">Existe aplicativo da 20Bet?</h3>
+                <div class="faq__question js-expand-content" itemscope  itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p  itemprop="text">
                     Sim, disponível para sistemas operacionais iOS e Android.
                   </p>
                 </div>
               </li>
-              <li class="faq__item" >
-                <h3 class="title medium faq__subtitle js-button-expander">Tem bônus de boas-vindas na 20Bet?</h3>
-                <div class="faq__question js-expand-content" >
-                  <p>
+              <li class="faq__item"  itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 class="title medium faq__subtitle js-button-expander"  itemprop="name">Tem bônus de boas-vindas na 20Bet?</h3>
+                <div class="faq__question js-expand-content" itemscope  itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                  <p  itemprop="text">
                     O pacote especial para novos usuários da 20Bet paga 100%
                     sobre o primeiro depósito, com limite de 600 BRL.
                   </p>
