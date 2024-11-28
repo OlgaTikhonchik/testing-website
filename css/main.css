@@ -156,6 +156,7 @@ article > h3,
   justify-content: space-between;
   max-width: 1600px;
   max-height: 80px;
+  border-radius: 0;
   background: #0d1d34;
   padding: 16px 48px;
   margin: 0 auto;
@@ -675,13 +676,13 @@ display: block;
     }
 
 
-    .main__sidebae-desk div,.menu__casino{
+    .main__sidebae-desk div{
       border-top-left-radius: 6px;
       border-top-right-radius: 6px;
     }
 
 
-    .menu__casino li{
+    .menu__casino li a{
       border-radius: 6px;
       overflow: hidden;
     }
@@ -765,28 +766,28 @@ display: block;
 
 /* ------------footer----------------- */
 .footer{
-  /* display: flex;
+   display: flex;
   position: relative;
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1600px; */
+  max-width: 1600px;  */
 
   background: #fff;
     color: #7F7F7F;
-    /* line-height: 16px;
-    font-size: 12px; */
-    padding: 0 10px;
+    
+    /* padding: 0 10px;
+    padding: 0 270px; */
     margin-top: 20px;
 }
 
 .footer__content{
   padding: 30px 0;
   background: transparent;
-  overflow: hidden;
+  /* overflow: hidden; */
 
-  max-width: 1600px;      
-    margin: 0 auto;
+  /* max-width: 1600px;       */
+    /* margin: 0 auto; */
 
   
 }
@@ -873,8 +874,11 @@ display: block;
   position: fixed;
   width: 42px;
   height: 42px;
-  right: 15px;
-  bottom: 30vh;
+  right: 12vw;
+  bottom: 80vh;
   background: url(../images/footer/Vector.svg) no-repeat center center / contain;
-  opacity: 0.5;
-  z-index: 100;}
+  /* opacity: 0.5;  */
+  z-index: 100;
+
+  
+}
