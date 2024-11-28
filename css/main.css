@@ -595,7 +595,7 @@ display: block;
     width: 70%;
     max-width: 482px;
     text-align: center;
-    z-index: 100;
+    /* z-index: 100; */
     padding: 49px 0;
     
 }    
