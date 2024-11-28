@@ -68,7 +68,7 @@ ul,ol {
   }
 
 a {
-	display: inline;
+	/* display: inline; */
   position: relative;
 	vertical-align: baseline;
 	font: inherit;
