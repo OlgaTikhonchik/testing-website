@@ -80,7 +80,7 @@ article > h3,
 }
 
 .button {
-  /* display: block; */
+  
   position: relative;
 
   min-width: 200px;
@@ -107,24 +107,6 @@ article > h3,
   background: #4da533;
 }
 
-/* .background {
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.background img {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 
 .header,
 .main ,.footer {
@@ -134,7 +116,7 @@ article > h3,
   align-items: center;
   width: 100%;
   max-width: 1600px;
-  /* padding: 16px 48px; */
+  
   margin: 0 auto;
 }
 
@@ -146,7 +128,7 @@ article > h3,
   right: 0;
   width: 100%;
   z-index: 1;
-  /* margin-bottom: 20px; */
+  
 }
 
 .header__content {
@@ -178,10 +160,7 @@ article > h3,
 .header__wrap-nav,
 .header__wrap-btn {
   display: flex;
-  /* position: relative;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;  */
+  
 }
 
 .header__app {
@@ -220,10 +199,7 @@ article > h3,
 }
 
 .header__menu {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* flex: 1; */
+  
 
   white-space: nowrap;
 }
@@ -249,10 +225,10 @@ article > h3,
   /* color:#647385; */
   color: #ffffff;
   background-color: transparent;
-  /* padding:8px 12px ; */
+ 
   transition: all 0.5s;
   opacity: 0.6;
-  /* line-height: 22px; */
+ 
 }
 
 .header__menu-list a:hover {
@@ -315,20 +291,16 @@ span {
   display: flex;
   position: relative;
   flex: 1 1 100%;
-  /* justify-content: flex-start;  */
+  
   align-items: stretch;
 
-  /* flex-direction: column; */
+ 
   max-width: 1600px;
   padding: 20px 10px 10px;
   margin: 0 auto;
 }
 
-.main__wrap {
-  /* display: block; */
-  
-  /* margin-left: 20px; */
-}
+
 
 /*--------------------MAIN__SIDEBAR-------------- */
 .main__sidebar-left,
@@ -362,9 +334,7 @@ span {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
-/* .sidebar__quicklinks{
-  overflow: hidden;
-} */
+
 
 .menu__links-desk,
 .menu-review-desk,.main__sidebae-desk div {
@@ -408,11 +378,7 @@ span {
   background: url(../images/left-menu/close.svg) center center / contain;
 }
 
-/* .main__wrap {
-  display: block;
-  position: relative;
-  flex: 1 1 100%;
-  margin-left: 20px;} */
+
 
 .page .content__wrapper {
   margin: 0 10px;
@@ -431,11 +397,11 @@ span {
 
 .hero{
   padding: 0;
-  /* padding: 70px 0 70px 20px ; */
+  
 }
 
 .hero__wrapper {
-  /* position: absolute; */
+ 
   display: flex;
   align-items: center;
 }
@@ -451,8 +417,7 @@ span {
 .hero__background img,.banner__backgroud img{
   border-radius: 6px;
   object-fit: cover;
-    /* max-width: none;
-    max-height: none; */
+   
     width: 100%;
     height: 100%;
     
@@ -461,7 +426,7 @@ span {
 .hero__data{
 display: block;
   position: relative;
-  /* width: 60%; */
+  
     max-width: 480px;
   padding: 70px 0 70px 20px ;  
 }
@@ -504,11 +469,7 @@ display: block;
     margin: auto;
 }
 
-/* .banner__backgroud{
-  display: block;
-    position: relative;
-    margin: auto;
-} */
+
 
 /* --------------------features----------- */
 .features{
@@ -541,7 +502,7 @@ display: block;
 }
 
 .features__table tr{
-  /* width: 100%; */
+  
   display: flex;
   border-bottom: 1px solid #4da533;
   padding: 10px 20px;
@@ -604,7 +565,7 @@ display: block;
     width: 70%;
     max-width: 482px;
     text-align: center;
-    /* z-index: 100; */
+   
     padding: 49px 0;
     
 }    
@@ -655,9 +616,6 @@ display: block;
       background: #282B30;
     }
 
-    /* .review p:last-of-type {
-      margin-bottom: 20px;
-    } */
 
     .button__bônus{
       margin: 20px auto 0 auto;
@@ -768,27 +726,17 @@ display: block;
 .footer{
    display: flex;
   position: relative;
-  /* justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1600px;  */
-
+ 
   background: #fff;
     color: #7F7F7F;
-    
-    /* padding: 0 10px;
-    padding: 0 270px; */
+  
     margin-top: 20px;
 }
 
 .footer__content{
   padding: 30px 0;
   background: transparent;
-  /* overflow: hidden; */
-
-  /* max-width: 1600px;       */
-    /* margin: 0 auto; */
-
+  
   
 }
 .footer__menu{
@@ -803,7 +751,7 @@ display: block;
   text-transform: uppercase;
 }
 .footer__info a{
-  /* font-size: 15px; */
+  
   color: inherit;
 
 }
@@ -872,12 +820,13 @@ display: block;
 .footer__arrow {
   display: inline-block;
   position: fixed;
+ 
   width: 42px;
   height: 42px;
-  right: 12vw;
-  bottom: 80vh;
+  right: 20px;
+  bottom: 20px ;
   background: url(../images/footer/Vector.svg) no-repeat center center / contain;
-  /* opacity: 0.5;  */
+  
   z-index: 100;
 
   
