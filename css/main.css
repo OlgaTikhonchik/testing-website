@@ -828,7 +828,8 @@ display: block;
 }
 
 .footer__content{
-  padding: 30px 0;
+  /* padding: 30px 0; */
+  padding: 30px 10px;
   background: transparent;
   
   
@@ -864,7 +865,7 @@ display: block;
   padding: 24px 74px;
 }
 
-.footer__cards-list li + li{
+.footer__cards-list li{
   margin-left: 24px;
   margin-top: 24px;
 }
@@ -897,9 +898,11 @@ display: block;
   margin-bottom: 16px;
 }
 
+
+
 .footer__age img{
- width: 40px;
- height: 40px;
+ max-width: 40px;
+ max-height: 40px;
 }
 
 .footer__information{
