@@ -14,13 +14,13 @@
   }}
 
 
-@media screen and (max-width:748px) {
+/* @media screen and (max-width:748px) {
     .header,
   .main,
   .footer {
     padding: 15px;
   }
-  } 
+  }  */
 
 
 /* ------------header-btn--------------- */
@@ -397,6 +397,9 @@
 }
 
 @media screen and (max-width:750px) {
+  /* .main{
+    padding: 0;
+  } */
   .ratings ul {
     column-count: 1;
   }
