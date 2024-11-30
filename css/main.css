@@ -617,10 +617,14 @@ display: block;
     height: 100%;
     width: 100%;}
 
+.banner__backgroud img{
+  object-position: 70%;
+}
+
 .banner__info{
   display: block;
     position: relative;
-    width: 70%;
+    width: 50%;
     max-width: 482px;
     text-align: center;
    
