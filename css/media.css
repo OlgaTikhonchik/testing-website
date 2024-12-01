@@ -259,12 +259,8 @@
      padding: 16px;
    } 
    
-   
-   .menu-review__content > .menu-review {
-    display: none;
-  }
   
-  .menu-review__content > .menu-review.active {
+  .menu-review__content > .menu-review__list.active {
     display: block ;
   }
 }

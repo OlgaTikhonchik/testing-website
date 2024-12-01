@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   document.addEventListener('DOMContentLoaded', function () {
-    const button = document.querySelector('.menu-review-desk'); 
-    const list = document.querySelector('.menu-review'); 
+    const button = document.querySelector('.menu-review-desk__content'); 
+    const list = document.querySelector('.menu-review__list'); 
   
    
     button.addEventListener('click', function () {
