@@ -127,7 +127,7 @@ article > h3,
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 10000;
   
 }
 
@@ -426,6 +426,9 @@ svg {
    background: url(../images/left-menu/close.svg) center center / contain;
 }
 
+.menu-review__content{
+  display: none;
+}
 
 .menu-review{
   display: none;
@@ -526,7 +529,11 @@ display: block;
     position: relative;
     margin: auto;
 }
+/* ---------------menu-review__content------------ */
 
+.menu-review__content{
+  
+}
 
 
 /* --------------------features----------- */
