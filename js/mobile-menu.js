@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     const menuButton = document.querySelector(".header__btn-menu");
     const nav = document.querySelector(".header__menu");
-    const navWrapper = document.querySelector('.header__wrap-nav');
+    // const navWrapper = document.querySelector('.header__wrap-nav');
 
   
     menuButton.addEventListener("click", function () {
       nav.classList.toggle("active"); 
-      navWrapper.classList.toggle('active');
+      // navWrapper.classList.toggle('active');
   
      
       if (nav.classList.contains("active")) {

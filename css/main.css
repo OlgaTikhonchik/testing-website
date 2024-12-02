@@ -127,11 +127,12 @@ article > h3,
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 10000;
+  z-index: 100;
   
 }
 
 .header__content {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
