@@ -439,11 +439,15 @@ svg {
 .menu-review li a {
   padding-left:8px ;
   position: relative;
+  white-space: nowrap;
 }
+
 
 .menu-review li a:hover{
   color: #EC622B;
   font-weight: 700;
+  padding-left: 10px;
+  
 }
 
 .menu-review li a:hover::before{
@@ -451,14 +455,16 @@ svg {
   position: absolute;
   display: block;
   
-  left: -5px;
+  left: 0;
   bottom: 50%;
   transform: translateY(50%);
   
   width: 8px;height: 8px;
-  background: url(../images/left-menu/condition-point.svg) center center / contain;
+  background: url(../images/left-menu/condition-point.svg) no-repeat center center / contain;
   transition: all 0.5s;
+ 
 }
+
 
 
 
