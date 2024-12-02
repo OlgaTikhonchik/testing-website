@@ -193,7 +193,7 @@ article > h3,
 }
 .header__app img {
   display: block;
-  /* margin: auto; */
+  
   width: 24px;
 }
 
@@ -300,7 +300,7 @@ span {
   display: block;
   flex: 0 1 auto;
   min-width: 0;
-  /* border: 1px solid #ffffff; */
+  
   background:#0D1D34;
   padding: 15px;
   margin-left: 15px;
@@ -336,7 +336,7 @@ svg {
 
  
   max-width: 1600px;
-  /* padding: 20px 10px 10px; */
+  
   padding: 20px 48px;
   margin: 0 auto;
 }
@@ -350,8 +350,7 @@ svg {
   align-self: stretch;
  
   flex: 0 0 240px;
-  /* flex: 0 1 240px; */
-  /* flex: 1 1  auto; */
+  
 }
 
 .main-left__wrapper,.main__sidebar-wrapper {
@@ -364,8 +363,7 @@ svg {
  
   overflow: auto;
 
-  /* padding: 0 10px 10px; */
-  /* padding: 0 5px 5px; */
+  
   margin-bottom: 20px;
 }
 
@@ -804,7 +802,7 @@ display: block;
 .faq p{
   padding: 0 20px 8px 20px;
   border-bottom: 1px solid #4DA533;
-  /* margin-bottom: 8px; */
+ 
 }
 
 .js-expand-content {
@@ -839,7 +837,7 @@ display: block;
 }
 
 .footer__content{
-  /* padding: 30px 0; */
+  
   padding: 30px 10px;
   background: transparent;
   
