@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const button = document.querySelector('.menu-review-desk'); 
-    const list = document.querySelector('.menu-review'); 
+    const button = document.querySelector('.menu__review-desk'); 
+    const list = document.querySelector('.menu__review'); 
   
    
     button.addEventListener('click', function () {
@@ -11,9 +11,11 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 
+// menu__review-content
+
   document.addEventListener('DOMContentLoaded', function () {
-    const button = document.querySelector('.menu-review-desk__content'); 
-    const list = document.querySelector('.menu-review__list'); 
+    const button = document.querySelector('.menu__review-content'); 
+    const list = document.querySelector('.menu__review-list'); 
   
    
     button.addEventListener('click', function () {
