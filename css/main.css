@@ -389,8 +389,10 @@ svg {
 }
 .menu__links li,
 .menu-review li {
+  position: relative;
   border-bottom: 1px solid #dbdfe5;
   padding: 8px 16px;
+  
 }
 
 .menu__links li a,
@@ -433,6 +435,32 @@ svg {
   display: none;
 
 }
+
+.menu-review li a {
+  padding-left:8px ;
+  position: relative;
+}
+
+.menu-review li a:hover{
+  color: #EC622B;
+  font-weight: 700;
+}
+
+.menu-review li a:hover::before{
+  content: "";
+  position: absolute;
+  display: block;
+  
+  left: -5px;
+  bottom: 50%;
+  transform: translateY(50%);
+  
+  width: 8px;height: 8px;
+  background: url(../images/left-menu/condition-point.svg) center center / contain;
+  transition: all 0.5s;
+}
+
+
 
 .menu-review.active{
   display: block;
