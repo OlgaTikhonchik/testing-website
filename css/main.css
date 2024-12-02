@@ -489,12 +489,14 @@ display: block;
   position: relative;
   
     max-width: 480px;
+    
   padding: 70px 0 70px 20px ;  
 }
 
 .hero__title{
   margin-bottom: 16px;
   text-align: start;
+  
 }
 
 .hero__title > *:first-child {
@@ -516,6 +518,7 @@ display: block;
 .hero__button{
   display: inline-block;
   max-width: max-content;
+  
   
 }
 

@@ -219,10 +219,10 @@
 
      .banner__info{
       width: 45%;
-      background: rgba(13, 29, 52, 0.7);;
+      background: rgba(13, 29, 52, 0.7);
      }
 
-   
+     
 }
 
 @media screen and (max-width: 468px) {
@@ -230,9 +230,7 @@
         display: none;
     }
 
-    /* .header__app  {
-        display: none;
-    } */
+    
 }
 
 @media screen and (max-width: 1440px) {
@@ -445,11 +443,13 @@
     flex-direction: column;
     justify-content: center;
     
+    
   }
 
   .hero__img{
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.5;
+    
   }
 
   
@@ -458,7 +458,21 @@
     height: 16px;
   }
 
-  
+  .hero__title{
+    
+    
+    z-index: 1;
+  }
+
+  .hero__button{
+    
+    z-index: 1;
+    
+  }
+
+ 
+
+ 
 
   .features__list td:first-child {
     flex: 0 1 45px;
