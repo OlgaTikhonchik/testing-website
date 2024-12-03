@@ -780,7 +780,7 @@ table td:last-child {
     flex-wrap: wrap;
 }
 
-.ratings ul {
+.ratings__list {
   
   margin-top: 16px;
   display: flex;
@@ -790,11 +790,12 @@ table td:last-child {
   
 }
 
-.ratings ul li{
+.ratings__list li{
   display: flex;
+  flex-wrap: wrap;
   flex:0 1 calc(50% - 10px);
-  
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   border-radius: 6px;
   background: #FAFAFA;
   padding: 16px 20px;
@@ -802,27 +803,25 @@ table td:last-child {
   
 }
 
-.ratings ul li:nth-child(5n){
+.ratings__list li:nth-child(5n){
   margin-bottom: 0;
 }
-.ratings ul li:nth-child(6n){
+.ratings__list li:nth-child(6n){
   margin-bottom: 0;
 }
 
-.ratings ul li p{
+.ratings__list li p{
+  flex: 1 1 100%;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.ratings__wrap{
-  display: flex;
-  justify-content: space-between;
-}
 
-.ratings__wrap span{
+
+.ratings__list span{
   font-weight: 700;
 }
-.button__ratings{
+.ratings__button{
   margin-left: 0;
   margin-top: 16px;
 }
@@ -923,18 +922,17 @@ table td:last-child {
 
 }
 
-.footer__cards{
-  border-bottom: 1px solid #A5A9B1;
-  margin-bottom: 16px;
-}
 
-.footer__cards ul {
+
+.footer__cards-list {
   display: flex;
-  align-content: center;
-    justify-content: center;
-    align-items: center;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #A5A9B1;
   padding: 24px 74px;
+  margin-bottom: 16px;
 }
 
 .footer__cards-list li{
