@@ -366,7 +366,7 @@
     display: block;
   }
 
-  .content__info:first-child{
+  .features__info:first-child{
     margin-bottom: 20px;
   }
 
@@ -379,7 +379,7 @@
     flex: 0 1 calc(100% - 72px);
   }
 
-  .title__banner{
+  .banner__title{
     font-size: 28px;
   }
 }
@@ -410,7 +410,7 @@
     font-size: 28px;
   }
 
-  .title__banner{
+  .banner__title{
     font-size: 24px;
   }
 
